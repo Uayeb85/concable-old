@@ -1,0 +1,807 @@
+/*======
+    General
+    ======*/
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#barra{
+  background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.color-boton{
+  margin-top: 25px;
+  background-color: #003366;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  *{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /*======
+      Barra
+      ======*/
+
+
+  .letra-nav{
+    color: #fff !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-letra{
+    color:#0b1a4d !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-poblacion a:hover{
+    font-family: 'Montserrat', sans-serif;
+      color:#fff !important;
+      font-size: 1em;
+      background-color:#003366;
+  }
+
+  /*======
+      Inicio
+      ======*/
+
+  .fondo-curvo{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+    border-radius: 0 0 50% 50% /0 0 100% 100%;
+    transform: scaleX(1.);
+  }
+  .titulo-fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+
+  }
+
+  .titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 2em;
+
+  }
+
+
+  /*======
+      Beneficios
+      ======*/
+  .beneficios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #0b1a4d;
+  }
+
+
+  .icono{
+  content:"\f118";
+  color: #0b1a4d;
+  margin-left: 90px;
+}
+
+.titulo-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color:  #003366;
+    margin-top: 15px;
+}
+.texto-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:  #003366;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+
+  /*======
+      Canales titulo
+      ======*/
+.programacion{
+    width: 97%;
+    height: auto;
+}
+
+.canales-titulo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  color: #0b1a4d;
+  margin-bottom: 20px;
+}
+
+.canales-restriccion{
+font-size: .5em;
+color: #0b1a4d;
+text-align: center;
+padding-bottom: 50px;
+
+
+}
+/*======
+    Tarifas
+    ======*/
+.tarifa{
+  width: 97%;
+  height: auto;
+}
+    .price-table {
+      text-align: center;
+      overflow: hidden;
+      background: #fff;
+      box-sizing: border-box;
+      box-shadow: inset 0 0 2.5rem rgba(0, 0, 0, 0.2), 0 1.25rem 3.125rem rgba(0, 0, 0, 0.3);
+      border-radius: 1.25rem;
+      width: 100%;
+    }
+
+    .price-table .price-head {
+      padding: 3.125rem;
+      background: linear-gradient(45deg, #0b1a4d, #003366);
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+    }
+
+    .price-table .price-head h4 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-size: 1.875rem;
+      font-weight: 700;
+    }
+
+    .price-table .price-head h2 {
+      margin: 0;
+      padding: 1.25rem 0;
+      font-size: 1.625rem;
+      color: #fff;
+    }
+
+    .price-table .price-content ul {
+      margin: 0;
+      padding: 1.25rem 0;
+    }
+
+    .price-table .price-content ul li {
+      list-style: none;
+      font-size: 1rem;
+      text-transform: uppercase;
+      padding: 0.625rem 0;
+      color: #003366;
+      border-left: 0.94rem solid transparent;
+      border-right: 0.94rem solid transparent;
+      transition: 0.5s;
+    }
+
+    .price-table .price-content ul li:hover {
+      border-left-color: #0b1a4d;
+      border-right-color: #0b1a4d;
+    }
+
+    .price-table .price-button {
+      padding: 0 0 1.875rem;
+    }
+
+    .price-table .price-button a {
+      padding: 0.625rem 2.5rem;
+      background: linear-gradient(45deg, #0b1a4d, #003366);
+      color: #fff;
+      border-radius: 1.56rem;
+      font-size: 1.13rem;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+.fondo-collapse{
+  background:#0b1a4d;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7em;
+
+}
+
+
+/*======
+    Contrata
+    ======*/
+
+.contrata-div{
+  background: linear-gradient(95deg,#0b1a4d, #003366 ) ;
+  padding-bottom: 80px;
+}
+
+.listo{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.envianos{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+.contrata-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata-mini{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.email-contrata a{
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.letra-envia{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.o{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-top: 22px;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+/*======
+    oficina
+    ======*/
+  .subtitulo-oficina{
+    font-family: 'Poppins', sans-serif;
+    color: #0b1a4d;
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+.letra-oficina{
+  font-family: 'Poppins', sans-serif;
+  color: #0b1a4d;
+  padding-top: 15px;
+  font-size: .9em;
+  text-align: center;
+
+}
+
+.boton-cobertura{
+  color:blue !important;
+  font-size: 19em;
+
+}
+
+/*======
+    footer
+    ======*/
+
+.pie{
+  background: #003366;
+  padding-bottom: 40px;
+
+}
+
+.logo-foot{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-pie{
+  width: 150px;
+  height: auto;
+  padding-top: 40px;
+
+
+}
+
+.logo-pie-letra{
+  color: #fff;
+  font-size: .6em;
+  text-align: center;
+}
+
+.legal-pie{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.legal-pie-menu{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: .8em;
+  text-align:center;
+
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-pie{
+  color: #fff;
+
+}
+
+.contacto-pie{
+  background:#0b1a4d;
+  padding-top: 10px;
+  padding-bottom: 1px
+}
+
+.letra-contacto-pie{
+  color: #fff;
+  text-align: center;
+}
+
+.corazon-contacto-pie{
+  color: red;
+}
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 2900px) {
+
+  /*======
+      Barra
+      ======*/
+
+  .letra-nav{
+    color: #fff !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-letra{
+    color:#0b1a4d !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-poblacion a:hover{
+    font-family: 'Montserrat', sans-serif;
+      color:#fff !important;
+      font-size: 1em;
+      background-color:#003366;
+  }
+
+
+  /*======
+      inicio
+      ======*/
+  .fondo-curvo{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+    border-radius: 0 0 50% 50% /0 0 100% 100%;
+    transform: scaleX(1.);
+  }
+
+  .titulo-fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 135px;
+
+  }
+
+  .titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 4em;
+
+  }
+
+  /*======
+      Beneficios
+      ======*/
+
+  .beneficios{
+    font-family: 'Poppins', sans-serif;
+      font-size: 3em;
+      color: #0b1a4d;
+  }
+
+  .movimiento:hover{
+    transform: translate(30px,0);
+    -o-transform: translate(30px,0);
+    -webkit-transform: translate(30px,0);
+    -moz-transform: translate(0px,0);
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+  }
+
+
+  .icono{
+  content:"\f118";
+  color: #0b1a4d;
+  margin-left: 90px;
+}
+
+.titulo-tarjeta{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  color: #003366;
+  margin-top: 20px;
+
+}
+.texto-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #003366;
+}
+
+
+
+  /*======
+      Canales titulo
+      ======*/
+
+.programacion{
+  width: 98%;
+  height: auto;
+}
+
+.canales-titulo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  color: #0b1a4d;
+  padding-bottom: 50px;
+}
+
+.canales-restriccion{
+  font-size: .8em;
+  color: #0b1a4d;
+  text-align: center;
+  padding-bottom: 50px;
+
+
+}
+
+/*======
+    Tarifas
+    ======*/
+
+.tarifa{
+  width: 98%;
+  height: auto;
+}
+
+.tarifas{
+  display: flex;
+  justify-content: space-around;
+}
+
+    .price-table {
+      text-align: center;
+      overflow: hidden;
+      background: #fff;
+      box-sizing: border-box;
+      box-shadow: inset 0 0 2.5rem rgba(0, 0, 0, 0.2), 0 1.25rem 3.125rem rgba(0, 0, 0, 0.3);
+      border-radius: 1.25rem;
+      width: 400px;
+    }
+
+    .price-table .price-head {
+      padding: 3.125rem;
+      background: linear-gradient(45deg, #0b1a4d, #003366);
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+    }
+
+    .price-table .price-head h4 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-size: 1.875rem;
+      font-weight: 700;
+    }
+
+    .price-table .price-head h2 {
+      margin: 0;
+      padding: 1.25rem 0;
+      font-size: 1.625rem;
+      color: #fff;
+    }
+
+    .price-table .price-content ul {
+      margin: 0;
+      padding: 1.25rem 0;
+    }
+
+    .price-table .price-content ul li {
+      list-style: none;
+      font-size: 1rem;
+      text-transform: uppercase;
+      padding: 0.625rem 0;
+      color: #003366;
+      border-left: 0.94rem solid transparent;
+      border-right: 0.94rem solid transparent;
+      transition: 0.5s;
+    }
+
+    .price-table .price-content ul li:hover {
+      border-left-color: #0b1a4d;
+      border-right-color: #0b1a4d;
+    }
+
+    .price-table .price-button {
+      padding: 0 0 1.875rem;
+    }
+
+    .price-table .price-button a {
+      padding: 0.625rem 2.5rem;
+      background: linear-gradient(45deg, #0b1a4d, #003366);
+      color: #fff;
+      border-radius: 1.56rem;
+      font-size: 1.13rem;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+.fondo-collapse{
+  background:#0b1a4d;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7em;
+
+}
+
+/*======
+    Contrata
+    ======*/
+
+.contrata-div{
+  background: linear-gradient(95deg,#0b1a4d, #003366 ) ;
+  padding-bottom: 80px;
+}
+
+.listo{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.envianos{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+.contrata-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.email-contrata a{
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata:hover{
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+
+
+}
+
+.letra-envia{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.o{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-top: 22px;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+/*======
+    oficina
+    ======*/
+
+
+
+.subtitulo-oficina{
+  font-family: 'Poppins', sans-serif;
+  color: #0b1a4d;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.letra-oficina{
+  font-family: 'Poppins', sans-serif;
+  color: #0b1a4d;
+  font-size: .9em;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.mapa{
+  width: 600px;
+  height: auto;
+}
+
+
+.boton-cobertura{
+  background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.boton-cobertura a{
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-cobertura:hover{
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+
+}
+
+.letra-envia{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+
+/*======
+    footer
+    ======*/
+
+.pie{
+  background: #003366;
+  padding-bottom: 40px;
+}
+
+.logo-foot{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-pie{
+  width: 250px;
+  height: auto;
+  padding-top: 40px;
+
+
+}
+
+
+.logo-pie-letra{
+  color: #fff;
+  font-size: .6em;
+  text-align: center;
+}
+
+.legal-pie{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.legal-pie-menu{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: .8em;
+  text-align:left;
+}
+
+.social-pie{
+  color: #fff;
+}
+
+.contacto-pie{
+  background:#0b1a4d;
+  padding-top: 10px;
+  padding-bottom: 1px
+}
+
+.letra-contacto-pie{
+  color: #fff;
+  text-align: center;
+}
+
+.corazon-contacto-pie{
+  color: red;
+}
+}

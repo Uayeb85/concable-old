@@ -1,0 +1,806 @@
+/*======
+    General
+    ======*/
+
+
+*{
+  margin: 0;
+  box-sizing: border-box
+}
+#barra{
+  background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.color-boton{
+  margin-top: 25px;
+  background-color: #003366;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 568px) {
+  /*======
+      Barra
+      ======*/
+
+
+  .letra-nav{
+    color: #fff !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-letra{
+    color:#0b1a4d !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-poblacion a:hover{
+    font-family: 'Montserrat', sans-serif;
+      color:#fff !important;
+      font-size: 1em;
+      background-color:#003366;
+  }
+
+  /*======
+      Inicio
+      ======*/
+
+  .fondo-curvo{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+    border-radius: 0 0 50% 50% /0 0 100% 100%;
+    transform: scaleX(1.);
+  }
+  .imagen-fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+
+  }
+
+  .logo-estilo{
+    width: 165px;
+    height: auto;
+  }
+
+
+  /*======
+      Beneficios
+      ======*/
+  .beneficios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #0b1a4d;
+  }
+
+
+  .icono{
+  content:"\f118";
+  color: #0b1a4d;
+  margin-left: 90px;
+}
+
+.titulo-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color:  #003366;
+    margin-top: 15px;
+}
+.texto-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:  #003366;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+/*======
+    Boton-drop
+    ======*/
+
+.boton-drop{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.menu-drop{
+  width: 235px;
+  height: 140px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu-poblacion a{
+  font-family: 'Montserrat', sans-serif;
+    color:#003366 !important;
+    font-size: 1em;
+
+}
+
+
+
+/*======
+    Contrata
+    ======*/
+
+.contrata-div{
+  background: linear-gradient(95deg,#0b1a4d, #003366 ) ;
+  padding-bottom: 80px;
+}
+
+.listo{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.envianos{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+.contrata-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata-mini{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.email-contrata a{
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.letra-envia{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.o{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-top: 22px;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+/*======
+    footer
+    ======*/
+
+.pie{
+  background: #003366;
+  padding-bottom: 40px;
+
+}
+
+.logo-foot{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-pie{
+  width: 150px;
+  height: auto;
+  padding-top: 40px;
+
+
+}
+
+
+.logo-pie-letra{
+  color: #fff;
+  font-size: .6em;
+  text-align: center;
+}
+
+.legal-pie{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.legal-pie-menu{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: .8em;
+  text-align:center;
+
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-pie{
+  color: #fff;
+
+}
+
+.contacto-pie{
+  background:#0b1a4d;
+  padding-top: 10px;
+  padding-bottom: 1px
+}
+
+.letra-contacto-pie{
+  color: #fff;
+  text-align: center;
+}
+
+.corazon-contacto-pie{
+  color: red;
+}
+
+}
+
+
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+  /*======
+      Barra
+      ======*/
+
+
+  .letra-nav{
+    color: #fff !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-letra{
+    color:#0b1a4d !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-poblacion a:hover{
+    font-family: 'Montserrat', sans-serif;
+      color:#fff !important;
+      font-size: 1em;
+      background-color:#003366;
+  }
+
+  /*======
+      Inicio
+      ======*/
+
+  .fondo-curvo{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+    border-radius: 0 0 50% 50% /0 0 100% 100%;
+    transform: scaleX(1.);
+  }
+  .imagen-fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+
+  }
+
+  .logo-estilo{
+    width: 300px;
+    height: auto;
+  }
+
+
+  /*======
+      Beneficios
+      ======*/
+  .beneficios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #0b1a4d;
+  }
+
+
+  .icono{
+  content:"\f118";
+  color: #0b1a4d;
+  margin-left: 90px;
+}
+
+.titulo-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color:  #003366;
+    margin-top: 15px;
+}
+.texto-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:  #003366;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+/*======
+    Boton-drop
+    ======*/
+
+.boton-drop{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.menu-drop{
+  width: 235px;
+  height: 120px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu-poblacion a{
+  font-family: 'Montserrat', sans-serif;
+    color:#003366 !important;
+    font-size: 1em;
+
+}
+
+
+
+/*======
+    Contrata
+    ======*/
+
+.contrata-div{
+  background: linear-gradient(95deg,#0b1a4d, #003366 ) ;
+  padding-bottom: 80px;
+}
+
+.listo{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.envianos{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+.contrata-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata-mini{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.email-contrata a{
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.letra-envia{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.o{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-top: 22px;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+/*======
+    footer
+    ======*/
+
+.pie{
+  background: #003366;
+  padding-bottom: 40px;
+
+}
+
+.logo-foot{
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo-pie{
+  width: 150px;
+  height: auto;
+  padding-top: 40px;
+
+
+}
+
+.logo-pie-letra{
+  color: #fff;
+  font-size: .6em;
+  text-align: center;
+}
+
+.legal-pie{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.legal-pie-menu{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: .8em;
+  text-align:center;
+
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-pie{
+  color: #fff;
+
+}
+
+.contacto-pie{
+  background:#0b1a4d;
+  padding-top: 10px;
+  padding-bottom: 1px
+}
+
+.letra-contacto-pie{
+  color: #fff;
+  text-align: center;
+}
+
+.corazon-contacto-pie{
+  color: red;
+}
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 2900px) {
+
+  /*======
+      Barra
+      ======*/
+
+  .letra-nav{
+    color: #fff !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-letra{
+    color:#0b1a4d !important;
+    font-size: 1em;
+  }
+
+  .menu-dropdown-poblacion a:hover{
+    font-family: 'Montserrat', sans-serif;
+      color:#fff !important;
+      font-size: 1em;
+      background-color:#003366;
+  }
+
+
+  /*======
+      inicio
+      ======*/
+  .fondo-curvo{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+    border-radius: 0 0 50% 50% /0 0 100% 100%;
+    transform: scaleX(1.);
+  }
+
+  .imagen-fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+  }
+
+  .logo-estilo{
+    width: 500px;
+    height: auto;
+  }
+
+  /*======
+      Beneficios
+      ======*/
+
+  .beneficios{
+    font-family: 'Poppins', sans-serif;
+      font-size: 3em;
+      color: #0b1a4d;
+  }
+
+.movimiento:hover{
+
+  transform: translate(30px,0);
+  -o-transform: translate(30px,0);
+  -webkit-transform: translate(30px,0);
+  -moz-transform: translate(0px,0);
+
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+}
+
+
+
+  .icono{
+  content:"\f118";
+  color: #0b1a4d;
+  margin-left: 90px;
+}
+
+.titulo-tarjeta{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  color: #003366;
+  margin-top: 20px;
+
+}
+.texto-tarjeta{
+  font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #003366;
+}
+
+
+/*======
+    Boton-drop
+    ======*/
+
+.boton-drop{
+  margin-top: 50px;
+  padding: 0px 0px 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.color-boton:hover{
+  background-color: #fff;
+  color:#003366;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-drop{
+  width: 235px;
+  height: 120px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu-poblacion a{
+  font-family: 'Montserrat', sans-serif;
+    color:#003366 !important;
+    font-size: 1em;
+
+}
+
+.menu-poblacion a:hover{
+  font-family: 'Montserrat', sans-serif;
+    color:#fff !important;
+    font-size: 1.2em;
+    background-color:#003366;
+}
+
+
+/*======
+    Contrata
+    ======*/
+
+.contrata-div{
+  background: linear-gradient(95deg,#0b1a4d, #003366 ) ;
+  padding-bottom: 80px;
+}
+
+.listo{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 4em;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align:center;
+}
+
+.envianos{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+.contrata-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.email-contrata a{
+  color:#000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-contrata:hover{
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg,#0b1a4d, #003366 ) ;
+
+
+}
+
+.letra-envia{
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.o{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-top: 22px;
+  font-size: 2em;
+  padding-bottom: 10px;
+  text-align:center;
+
+}
+
+/*======
+    footer
+    ======*/
+
+.pie{
+  background: #003366;
+  padding-bottom: 40px;
+}
+
+.logo-foot{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-pie{
+  width: 250px;
+  height: auto;
+  padding-top: 40px;
+
+
+}
+
+.logo-pie-letra{
+  color: #fff;
+  font-size: .6em;
+  text-align: center;
+}
+
+.legal-pie{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.legal-pie-menu{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: .8em;
+  text-align:left;
+}
+
+.social-pie{
+  color: #fff;
+}
+
+.contacto-pie{
+  background:#0b1a4d;
+  padding-top: 10px;
+  padding-bottom: 1px
+}
+
+.letra-contacto-pie{
+  color: #fff;
+  text-align: center;
+}
+
+.corazon-contacto-pie{
+  color: red;
+}
+}

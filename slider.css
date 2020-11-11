@@ -1,0 +1,46 @@
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+.canales-div{
+  display: none;
+}
+
+.canales-logo{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.canales{
+  width: 60px;
+  height: auto;
+
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 2900px) {
+
+  .canales-div1{
+    display: none;
+  }
+  .canales-logo{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+  }
+
+.canales{
+  width: 100px;
+  height: auto;
+}
+
+}
